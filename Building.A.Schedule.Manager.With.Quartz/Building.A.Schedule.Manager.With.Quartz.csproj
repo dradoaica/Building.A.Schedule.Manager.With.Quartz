@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E1EC163B-C4DB-4E40-8333-FC0064DDD89B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Build.A.Schedule.Manager.With.Quartz</RootNamespace>
-    <AssemblyName>Build.A.Schedule.Manager.With.Quartz</AssemblyName>
+    <RootNamespace>Building.A.Schedule.Manager.With.Quartz</RootNamespace>
+    <AssemblyName>Building.A.Schedule.Manager.With.Quartz</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

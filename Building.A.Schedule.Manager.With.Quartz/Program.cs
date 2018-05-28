@@ -4,7 +4,7 @@ using System;
 using System.Threading.Tasks;
 #endregion
 
-namespace Build.A.Schedule.Manager.With.Quartz
+namespace Building.A.Schedule.Manager.With.Quartz
 {
     class Program
     {

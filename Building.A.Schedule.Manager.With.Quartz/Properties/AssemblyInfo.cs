@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Build.A.Schedule.Manager.With.Quartz")]
+[assembly: AssemblyTitle("Building.A.Schedule.Manager.With.Quartz")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Build.A.Schedule.Manager.With.Quartz")]
+[assembly: AssemblyProduct("Building.A.Schedule.Manager.With.Quartz")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

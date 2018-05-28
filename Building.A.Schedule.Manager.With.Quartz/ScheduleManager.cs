@@ -8,7 +8,7 @@ using System.Collections.Specialized;
 using System.Linq;
 #endregion
 
-namespace Build.A.Schedule.Manager.With.Quartz
+namespace Building.A.Schedule.Manager.With.Quartz
 {
     public class ScheduleManager
     {
@@ -216,7 +216,7 @@ namespace Build.A.Schedule.Manager.With.Quartz
             // b. build trigger
             TriggerBuilder triggerBuilder = TriggerBuilder.Create()
                 .WithIdentity($"{jobId}_{uid}", "OneTimeTriggers")
-                .WithSimpleSchedule(x => x.WithIntervalInSeconds(5).WithRepeatCount(1));
+                .WithSimpleSchedule(x => x.WithIntervalInSeconds(1).WithRepeatCount(1));
 
             if (jobData != null)
                 foreach (KeyValuePair<string, string> pair in jobData)

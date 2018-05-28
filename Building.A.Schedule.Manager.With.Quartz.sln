@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Build.A.Schedule.Manager.With.Quartz", "Build.A.Schedule.Manager.With.Quartz\Build.A.Schedule.Manager.With.Quartz.csproj", "{E1EC163B-C4DB-4E40-8333-FC0064DDD89B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Building.A.Schedule.Manager.With.Quartz", "Building.A.Schedule.Manager.With.Quartz\Building.A.Schedule.Manager.With.Quartz.csproj", "{E1EC163B-C4DB-4E40-8333-FC0064DDD89B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 #endregion
 
-namespace Build.A.Schedule.Manager.With.Quartz
+namespace Building.A.Schedule.Manager.With.Quartz
 {
     public static class Extensions
     {
