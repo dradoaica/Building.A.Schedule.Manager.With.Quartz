@@ -99,13 +99,16 @@ namespace Building.A.Schedule.Manager.With.Quartz
         }
         public void ToggleStandby()
         {
-            if (!_isStarted)
-                return;
+            lock (_obj)
+            {
+                if (!_isStarted)
+                    return;
 
-            if (_scheduler.InStandbyMode)
-                _scheduler.Start();
-            else
-                _scheduler.Standby();
+                if (_scheduler.InStandbyMode)
+                    _scheduler.Start();
+                else
+                    _scheduler.Standby();
+            }
         }
         public ScheduleJobResult ScheduleJob<T>(string jobId, string jobGroup, string cronExpression, Dictionary<string, string> jobData = null, string timeZone = null)
             where T : IJob
