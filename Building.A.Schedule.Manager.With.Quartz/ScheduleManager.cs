@@ -83,7 +83,7 @@ namespace Building.A.Schedule.Manager.With.Quartz
 
                         _scheduler.Shutdown(true /* wait until all terminate */);
 
-                        _log.Info("Schedule manager stoped");
+                        _log.Info("Schedule manager stopped");
                     }
                     catch (Exception e)
                     {
